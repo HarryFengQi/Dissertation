@@ -15,7 +15,7 @@ There are diferent reauirements for the methods for calculating diferent featres
 | **pKa**  | PROPKA3  | propka       |anaconda      |
 
 ## A few points to note:
-1.**`Raw data extraction.ipynb`** is mainly used to extract structural data from `PDB` and `AlphaFold` databases and calculate feature data. When running, the `Uniprot_Entry` column in the **`glycation.csv`** file needs to be used as input. Note: Duplicate proteins should be deleted.<br>
+1.**`Raw data extraction.ipynb`** is mainly used to extract structural data from `PDB` and `AlphaFold` databases and calculate feature data. When running, the `Uniprot_Entry` column in the **`glycation.csv`** file needs to be used as input. <br>**Note**:<br> *Duplicate proteins should be deleted.<br>*If the number of input proteins is huge, you can choose to input and extract data in batches.<br>
 
 2.**`Alphafold.py`**, **`measure.py`**, **`protein.py`**, **`uniport.py`** and other files are python files needed in the extraction process.<br> 
 
